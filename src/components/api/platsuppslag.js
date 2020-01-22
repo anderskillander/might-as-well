@@ -23,6 +23,7 @@ class ApiFetch extends React.Component {
           X: item.X,
           Y: item.Y
         });
+        return item;
       });
     this.setState({ locationData: data });
   };
